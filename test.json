@@ -1,0 +1,787 @@
+[
+  {
+    "types": "polyline",
+    "elements": "geometry",
+    "stylers": {
+      "lightness": 0.5,
+      "scale": 0.35
+    }
+  },
+  {
+    "types": "polygon",
+    "elements": "geometry.fill",
+    "tags": {
+      "any": [
+        "admin",
+        "urban_area",
+        "poi",
+        "land",
+        "structure"
+      ]
+    },
+    "stylers": {
+      "color": "F7F5E9"
+    }
+  },
+  {
+    "types": [
+      "polygon"
+    ],
+    "tags": {
+      "any": [
+        "transit"
+      ]
+    },
+    "stylers": {
+      "color": "F7F5E9"
+    }
+  },
+  {
+    "types": "polygon",
+    "tags": {
+      "any": [
+        "vegetation",
+        "park"
+      ]
+    },
+    "stylers": {
+      "color": "#C3E691"
+    }
+  },
+  {
+    "types": [
+      "polygon",
+      "polyline"
+    ],
+    "tags": {
+      "any": [
+        "water"
+      ]
+    },
+    "stylers": {
+      "color": "111111"
+    }
+  },
+  {
+    "types": "polygon",
+    "tags": {
+      "any": [
+        "building",
+        "fence"
+      ]
+    },
+    "stylers": [
+      {
+        "color": "E6E3D8"
+      },
+      {
+        "zoom": [
+          15,
+          16
+        ],
+        "color": "E89F7D"
+      },
+      {
+        "zoom": [
+          16,
+          17
+        ],
+        "color": "E8807D"
+      },
+      {
+        "zoom": [
+          17,
+          18
+        ],
+        "color": "E6E3D890"
+      }
+    ]
+  },
+  {
+    "types": "polyline",
+    "tags": {
+      "any": [
+        "country"
+      ]
+    },
+    "elements": "geometry.fill",
+    "stylers": {
+      "color": "999588",
+      "scale": 0.8
+    }
+  },
+  {
+    "types": "polyline",
+    "tags": {
+      "any": [
+        "region"
+      ]
+    },
+    "elements": "geometry.fill",
+    "stylers": {
+      "color": "B3B1A400",
+      "scale": 0.2
+    }
+  },
+  {
+    "types": "polyline",
+    "tags": {
+      "any": [
+        "admin"
+      ],
+      "none": [
+        "country",
+        "region"
+      ]
+    },
+    "elements": "geometry.fill",
+    "stylers": {
+      "color": "999588",
+      "scale": 0.1
+    }
+  },
+  {
+    "types": "polyline",
+    "elements": "geometry.fill",
+    "tags": {
+      "any": [
+        "road"
+      ],
+      "none": [
+        "path",
+        "crosswalk"
+      ]
+    },
+    "stylers": {
+      "color": "ffffff",
+      "scale": 0.8
+    }
+  },
+  {
+    "types": "polyline",
+    "elements": "geometry.fill",
+    "tags": {
+      "any": [
+        "road_1",
+        "road_2"
+      ]
+    },
+    "stylers": {
+      "color": "F2A03D"
+    }
+  },
+  {
+    "types": "polyline",
+    "elements": "geometry.fill",
+    "tags": {
+      "any": [
+        "road_3",
+        "road_4"
+      ]
+    },
+    "stylers": {
+      "color": "FFBD4D"
+    }
+  },
+  {
+    "types": "polyline",
+    "elements": "geometry.fill",
+    "tags": {
+      "any": [
+        "road_5"
+      ]
+    },
+    "stylers": {
+      "color": "ccc",
+      "zoom": [
+        9,
+        10
+      ],
+      "scale": 0.7
+    }
+  },
+  {
+    "types": "polyline",
+    "elements": "geometry.fill",
+    "tags": {
+      "any": [
+        "road_6"
+      ]
+    },
+    "stylers": {
+      "color": "CCCCCC",
+      "zoom": [
+        11,
+        12
+      ],
+      "scale": 0.7
+    }
+  },
+  {
+    "types": "polyline",
+    "elements": "geometry.fill",
+    "tags": {
+      "any": [
+        "road_7",
+        "road_limited",
+        "road_unclassified"
+      ]
+    },
+    "stylers": {
+      "zoom": [
+        13
+      ],
+      "scale": 0.7,
+      "color": "#CCCCCC"
+    }
+  },
+  {
+    "types": "polyline",
+    "elements": "geometry.outline",
+    "tags": {
+      "any": [
+        "road"
+      ]
+    },
+    "stylers": [
+      {
+        "color": "999999",
+        "scale": 0.8
+      },
+      {
+        "zoom": [
+          8,
+          11
+        ],
+        "color": "cccccc"
+      }
+    ]
+  },
+  {
+    "types": "polyline",
+    "elements": "geometry.outline",
+    "tags": {
+      "any": [
+        "road_1",
+        "road_2"
+      ]
+    },
+    "stylers": [
+      {
+        "color": "ffffff"
+      },
+      {
+        "zoom": [
+          8,
+          9
+        ],
+        "color": "F2A03D"
+      }
+    ]
+  },
+  {
+    "types": "polyline",
+    "elements": "geometry.outline",
+    "tags": {
+      "any": [
+        "road_3",
+        "road_4"
+      ]
+    },
+    "stylers": [
+      {
+        "color": "ffffff"
+      },
+      {
+        "zoom": [
+          8,
+          10
+        ],
+        "color": "FFBD4D"
+      }
+    ]
+  },
+  {
+    "types": "polyline",
+    "tags": {
+      "any": [
+        "path"
+      ]
+    },
+    "elements": "geometry.fill",
+    "stylers": {
+      "saturation": -1,
+      "lightness": 0.1,
+      "scale": 0.65
+    }
+  },
+  {
+    "types": "polyline",
+    "tags": {
+      "any": [
+        "crosswalk"
+      ]
+    },
+    "elements": "geometry.fill",
+    "stylers": {
+      "saturation": -1,
+      "lightness": 0.1,
+      "scale": 0.65
+    }
+  },
+  {
+    "types": "polyline",
+    "tags": {
+      "any": [
+        "path"
+      ],
+      "none": [
+        "structure"
+      ]
+    },
+    "elements": "geometry.outline",
+    "stylers": {
+      "color": "00000000",
+      "scale": 0.5
+    }
+  },
+  {
+    "types": "point",
+    "tags": {
+      "any": [
+        "poi"
+      ],
+      "none": [
+        "park"
+      ]
+    },
+    "elements": "label.icon",
+    "stylers": [
+      {
+        "lightness": 0.4,
+        "saturation": -1
+      },
+      {
+        "zoom": [
+          0,
+          17
+        ],
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "types": "point",
+    "tags": {
+      "any": [
+        "poi"
+      ],
+      "none": [
+        "park"
+      ]
+    },
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "color": "#808080",
+        "lightness": 0.4
+      },
+      {
+        "zoom": [
+          0,
+          17
+        ],
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "types": "point",
+    "tags": {
+      "any": [
+        "poi"
+      ],
+      "none": [
+        "park"
+      ]
+    },
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "ffffff40"
+      },
+      {
+        "zoom": [
+          0,
+          17
+        ],
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "types": "point",
+    "tags": {
+      "any": [
+        "park"
+      ]
+    },
+    "elements": "label.icon",
+    "stylers": {
+      "lightness": 0.1,
+      "hue": "9CDE78",
+      "saturation": -0.3
+    }
+  },
+  {
+    "types": "point",
+    "tags": {
+      "any": [
+        "park"
+      ]
+    },
+    "elements": "label.text.fill",
+    "stylers": {
+      "lightness": 0.1,
+      "hue": "9CDE78",
+      "saturation": -0.3
+    }
+  },
+  {
+    "types": "point",
+    "tags": {
+      "any": [
+        "park"
+      ]
+    },
+    "elements": "label.text.outline",
+    "stylers": {
+      "color": "ffffff40"
+    }
+  },
+  {
+    "types": "point",
+    "tags": {
+      "all": [
+        "road"
+      ]
+    },
+    "elements": "label.icon",
+    "stylers": {
+      "lightness": 0.2,
+      "scale": 0.9
+    }
+  },
+  {
+    "types": "point",
+    "tags": {
+      "all": [
+        "road"
+      ]
+    },
+    "elements": "label.text",
+    "stylers": {
+      "scale": 0.9
+    }
+  },
+  {
+    "types": "point",
+    "tags": {
+      "any": [
+        "entrance"
+      ]
+    },
+    "stylers": {
+      "scale": 1.05,
+      "lightness": 0.2,
+      "saturation": -1
+    }
+  },
+  {
+    "types": "polyline",
+    "elements": "geometry.fill.pattern",
+    "tags": {
+      "none": [
+        "transit_line"
+      ]
+    },
+    "stylers": {
+      "visibility": "off"
+    }
+  },
+  {
+    "types": "polyline",
+    "tags": {
+      "all": "transit_schema"
+    },
+    "stylers": {
+      "visibility": "off"
+    }
+  },
+  {
+    "types": "polyline",
+    "tags": {
+      "all": [
+        "transit_line"
+      ]
+    },
+    "stylers": [
+      {
+        "hue": "#BEC1C4",
+        "lightness": 0.25,
+        "scale": 0.8
+      },
+      {
+        "zoom": [
+          0,
+          11
+        ],
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "types": "point",
+    "tags": {
+      "any": [
+        "country"
+      ]
+    },
+    "elements": "label.text.fill",
+    "stylers": {
+      "color": "666666",
+      "scale": 0.85
+    }
+  },
+  {
+    "types": "point",
+    "tags": {
+      "any": [
+        "region"
+      ]
+    },
+    "elements": "label.text.fill",
+    "stylers": {
+      "color": "666666",
+      "scale": 0.85
+    }
+  },
+  {
+    "types": "point",
+    "tags": {
+      "any": [
+        "locality"
+      ]
+    },
+    "elements": "label.text.fill",
+    "stylers": {
+      "color": "666666",
+      "scale": 0.9
+    }
+  },
+  {
+    "types": "point",
+    "tags": {
+      "any": [
+        "admin"
+      ]
+    },
+    "elements": "label.text.outline",
+    "stylers": {
+      "color": "ffffff60"
+    }
+  },
+  {
+    "types": "point",
+    "tags": {
+      "any": [
+        "locality"
+      ]
+    },
+    "elements": "label.icon",
+    "stylers": {
+      "lightness": 0.2,
+      "scale": 0.9
+    }
+  },
+  {
+    "types": "point",
+    "tags": {
+      "any": [
+        "district"
+      ]
+    },
+    "elements": "label.text",
+    "stylers": [
+      {
+        "color": "999999",
+        "scale": 0.9
+      },
+      {
+        "zoom": [
+          14,
+          20
+        ],
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "types": "point",
+    "tags": {
+      "any": [
+        "district"
+      ]
+    },
+    "elements": "label.text.outline",
+    "stylers": {
+      "color": "99999900"
+    }
+  },
+  {
+    "types": [
+      "point",
+      "polyline"
+    ],
+    "tags": {
+      "any": [
+        "water"
+      ]
+    },
+    "elements": "label.text.fill",
+    "stylers": {
+      "color": "67AEE6",
+      "scale": 0.9
+    }
+  },
+  {
+    "types": "polyline",
+    "elements": "label.text.fill",
+    "tags": {
+      "any": [
+        "road",
+        "road_1",
+        "road_2"
+      ]
+    },
+    "stylers": {
+      "color": "333333",
+      "scale": 0.8
+    }
+  },
+  {
+    "types": "polyline",
+    "elements": "label.text.fill",
+    "tags": {
+      "any": [
+        "road_3",
+        "road_4"
+      ]
+    },
+    "stylers": {
+      "scale": 0.88
+    }
+  },
+  {
+    "types": "polyline",
+    "elements": "label.text.fill",
+    "tags": {
+      "any": [
+        "road_5",
+        "road_6",
+        "road_7",
+        "road_limited",
+        "road_unclassified",
+        "road_minor",
+        "path",
+        "crosswalk",
+        "road_construction"
+      ]
+    },
+    "stylers": {
+      "scale": 0.95
+    }
+  },
+  {
+    "types": "polyline",
+    "elements": "label.text.outline",
+    "tags": {
+      "any": [
+        "road"
+      ]
+    },
+    "stylers": {
+      "color": "ffffff"
+    }
+  },
+  {
+    "types": "point",
+    "tags": {
+      "any": [
+        "address"
+      ]
+    },
+    "elements": "label.text.fill",
+    "stylers": {
+      "color": "8C8C8C"
+    }
+  },
+  {
+    "types": "point",
+    "tags": {
+      "any": [
+        "address"
+      ]
+    },
+    "elements": "label.text.outline",
+    "stylers": {
+      "color": "CECABB00"
+    }
+  },
+  {
+    "types": "point",
+    "tags": {
+      "any": [
+        "admin",
+        "landscape",
+        "traffic_light",
+        "structure"
+      ],
+      "none": [
+        "country",
+        "region",
+        "locality",
+        "district",
+        "address",
+        "entrance"
+      ]
+    },
+    "stylers": {
+      "visibility": "off"
+    }
+  },
+  {
+    "types": "polyline",
+    "tags": {
+      "any": [
+        "is_tunnel"
+      ]
+    },
+    "elements": "geometry.fill",
+    "stylers": {
+      "color": "F7F5E9"
+    }
+  },
+  {
+    "types": "polyline",
+    "tags": {
+      "any": [
+        "is_tunnel"
+      ]
+    },
+    "elements": "geometry.outline",
+    "stylers": {
+      "color": "B3B3B3"
+    }
+  }
+]
