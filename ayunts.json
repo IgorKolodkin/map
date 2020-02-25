@@ -1,13 +1,5 @@
 [
   {
-    "types": "polyline",
-    "elements": "geometry",
-    "stylers": {
-      "lightness": 0.5,
-      "scale": 0.35
-    }
-  },
-  {
     "types": "polygon",
     "elements": "geometry.fill",
     "tags": {
@@ -59,7 +51,7 @@
       ]
     },
     "stylers": {
-      "color": "111111"
+      "color": "9ED9FF"
     }
   },
   {
@@ -79,14 +71,14 @@
           15,
           16
         ],
-        "color": "E89F7D"
+        "color": "E6E3D855"
       },
       {
         "zoom": [
           16,
           17
         ],
-        "color": "E8807D"
+        "color": "E6E3D880"
       },
       {
         "zoom": [
